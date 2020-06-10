@@ -1,8 +1,6 @@
 const express = require("express");
-
-const db = require("./data/db-config");
-
 const router = express.Router();
+const db = require("./data/db-config");
 
 router.get("/", async (req, res) => {
   try {
